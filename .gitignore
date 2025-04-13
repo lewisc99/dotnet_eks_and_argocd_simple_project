@@ -361,3 +361,32 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.crash
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate.backup
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# EKS
+.kube/
+*.kubeconfig
+*.eksctl
+
+# Argo CD
+argocd-config.yaml
+argocd-secret.yaml
+argocd-repo-server-tls-cert.yaml
+argocd-repo-server-tls-key.yaml
+argocd-ssh-known-hosts.yaml
+argocd-gpg-keys.yaml
